@@ -1,0 +1,25 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.bg-black {
+  background-color: #111 !important;
+}
+
+.bg-secondary {
+  background-color: #2a2a2a !important;
+  border: none;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+.card {
+  border-radius: 15px;
+}
+
+.badge {
+  font-size: 0.85rem;
+  padding: 0.5em 0.8em;
+}

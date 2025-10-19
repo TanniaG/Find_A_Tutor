@@ -1,0 +1,223 @@
+.hero-image {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-image.irregular {
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 0% 100%);
+}
+
+
+.brand-title {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+  color: #FFA500;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  font-family: 'Italiana', serif;
+}
+
+.bg-orange {
+  background-color: #FFA500 !important;
+}
+
+.bg-orange-translucent {
+  background-color: rgba(255, 165, 0, 0.6); /* #FFA500 with 60% opacity */
+  backdrop-filter: blur(4px); /* optional: adds a slight blur effect */
+}
+
+.text-orange {
+  color: #FFA500 !important;
+}
+
+.italiana-regular {
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.playfair-display-one {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+
+.bg-cover {
+      background: url('Images/tutor3.jpg') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+}
+
+.form-box {
+      background-color: rgba(255, 255, 255, 0.7); /* slight transparency */
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.input-icon-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.input-icon-wrapper i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+.input-icon-wrapper i.fa-circle-user,
+.input-icon-wrapper i.fa-envelope,
+.input-icon-wrapper i.fa-lock {
+  left: 10px;
+  pointer-events: none;
+}
+
+.input-icon-wrapper i.eye {
+  right: 15px;
+  cursor: pointer;
+  z-index: 2;
+}
+  
+.input-icon-wrapper input {
+  width: 100%;
+  padding-left: 35px;  /* space for lock icon */
+  padding-right: 35px; /* space for eye icon */
+  height: 40px;
+  box-sizing: border-box;
+}
+
+.eye{
+ top: 50%;
+ right: 15px;
+ transform: translateY(-50%);
+ cursor: pointer; 
+ color: #aaa; 
+ z-index: 2; 
+}
+
+.bg-rose { background-color: #f43f5e; }
+.bg-sky { background-color: #38bdf8; }
+.bg-mint { background-color: #10b981; }
+.bg-sun { background-color: #facc15; }
+.bg-lavender { background-color: #c084fc; }
+.bg-peach { background-color: #fb923c; }
+.bg-ash { background-color: #808080; }
+.bg-forest { background-color: #166534; }
+.bg-berry { background-color: #db2777; }
+.bg-ink { background-color: #1e293b; }
+.bg-weirdbrown{ background-color:#CD853F;}
+
+.gradient-btn {
+  background: linear-gradient(135deg, #FFA500, #FF7F50); /* Orange shades */
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.gradient-btn:hover {
+  background: linear-gradient(135deg, #FF7F50, #FFA500);
+  box-shadow: 0 4px 15px rgba(255, 165, 0, 0.4);
+  transform: scale(1.05);
+}
+
+.vh-100 { 
+  height: 100vh;
+ }
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.bag-image {
+      background-image: url('/findAtutor/Images/quote.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+    }
+
+.form-box {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+    }
+ .gradient-orange {
+  background: linear-gradient(to bottom right, #ff8008, #ffc837);
+}
+   
